@@ -39,6 +39,10 @@ class DetailVC: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(true)
+    }
+    
     //MARK:- Custom methods
     func initializeUIControlers() {
         
